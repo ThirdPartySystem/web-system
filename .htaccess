@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} !^/index.php$
+RewriteRule !\.(pdf|ico|gif|jpg|png|css|js|xml)$ index.php

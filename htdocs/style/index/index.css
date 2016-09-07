@@ -1,0 +1,191 @@
+/* CSS Document */
+
+#search_box{
+	width: 100%;
+	max-width: 720px;
+	height: 240px;
+	margin:0 auto;
+	margin-top: 50px;
+	padding:25px;
+}
+
+#search_box .wrapper{
+	padding:20px;
+	height: 100%;
+	border: 3px solid #111111;
+	position: relative;
+
+}
+
+#search_box .wrapper h1{
+	position: absolute;
+	text-align: center;
+	font-size: 2.4em;
+	top: -25px;
+	left: 50%;
+	margin-left: -50%;
+	height: 50px;
+	line-height: 50px;
+	width: 100%;
+}
+#search_box .wrapper h1 .back{
+	background: #FFFFFF;
+}
+#search_box .wrapper .search-area{
+	width: 100%;
+	max-width: 480px;
+	height: 50px;
+	position: relative;
+	border: 2px solid #000000;
+	overflow:hidden;
+	margin:0 auto;
+	border: 2px solid #bf0407;
+	margin-top: 50px;
+
+}
+#search_box .wrapper .search-area .input-area{
+	width: 100%;
+	height: 46px;
+	font-size: 1.2em;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border: none;
+	outline: none;
+	padding-left: 5px;
+	padding-right: 55px;
+}
+
+#search_box .wrapper .search-area .search-button{
+	width: 50px;
+	height: 50px;
+	background-color:#FFF;
+	background-image:url(../../images/search_icon.png);
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 0px;
+	top: -2px;
+}
+#search_box .wrapper .button-list{
+	width: 100%;
+	list-style: none;
+}
+
+#search_box .wrapper .button-list li{
+	position: absolute;
+	height: 40px;
+}
+
+
+#search_box .wrapper .button-list li a{
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	padding:0px 20px;
+	background: #111111;
+	color:#FEFEFE;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	-ms-transition: 0.3s;
+	transition: 0.3s;
+}
+
+#search_box .wrapper .button-list li.new-post{
+	right: -15px;
+	top: -15px;
+}
+
+#search_box .wrapper .button-list li.login{
+	left: -15px;
+	top: -15px;
+}
+#search_box .wrapper .button-list li.logout{
+	left: -15px;
+	top: -15px;
+}
+#search_box .wrapper .button-list li.dictionary{
+	left: -15px;
+	bottom: -15px;
+}
+#search_box .wrapper .button-list li.new-post a:hover{
+	color: #fb3989;
+}
+
+#search_box .wrapper .button-list li.login a:hover {
+	color: #00e14a;
+}
+#search_box .wrapper .button-list li.logout a:hover{
+	color: #8aa9bd;
+}
+#search_box .wrapper .button-list li.dictionary a:hover{
+	color: #2b9af3;
+}
+
+@media screen and (max-width: 720px) {
+
+
+#search_box .wrapper{
+	padding:10px;
+
+}
+#search_box .wrapper .search-area{
+	width: 100%;
+	max-width: 480px;
+	height: 42px;
+	margin-top: 60px;
+
+}
+#search_box .wrapper .search-area .input-area{
+	width: 100%;
+	height: 38px;
+	font-size: 1.1em;
+	padding-left: 3px;
+	padding-right: 43px;
+}
+
+#search_box .wrapper .search-area .search-button{
+	width: 38px;
+	height: 38px;
+	background-size: 38px 38px;
+}
+#search_box .wrapper .button-list li{
+	height: 35px;
+}
+
+
+#search_box .wrapper .button-list li a{
+	font-size: 0.9em;
+	height: 35px;
+	line-height: 35px;
+	padding:0px 15px;
+}
+	
+}
+
+@media screen and (max-width: 480px) {
+#search_box .wrapper h1{
+	font-size: 2.0em;
+	top: -20px;
+	left: 50%;
+	margin-left: -50%;
+	height: 40px;
+	line-height: 40px;
+	width: 100%;
+}
+#search_box .wrapper .button-list li{
+	height: 30px;
+}
+
+
+#search_box .wrapper .button-list li a{
+	font-size: 0.8em;
+	height: 30px;
+	line-height: 30px;
+	padding:0px 10px;
+}
+}
